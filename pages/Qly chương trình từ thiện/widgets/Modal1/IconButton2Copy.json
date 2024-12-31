@@ -1,0 +1,37 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 54,
+  "boxShadow": "none",
+  "buttonColor": "#14532d",
+  "buttonVariant": "TERTIARY",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "iconName": "upload",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "pmj956tj14",
+  "leftColumn": 56,
+  "minWidth": 50,
+  "mobileBottomRow": 45,
+  "mobileLeftColumn": 56,
+  "mobileRightColumn": 60,
+  "mobileTopRow": 41,
+  "needsErrorInfo": false,
+  "parentColumnSpace": 17.96875,
+  "parentId": "km3j5i05xl",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 58,
+  "topRow": 50,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "a9v9hhnpcy",
+  "widgetName": "IconButton2Copy"
+}

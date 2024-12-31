@@ -1,0 +1,103 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 7,
+  "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "menuItems.menuItem1.onClick"
+    },
+    {
+      "key": "menuItems.menuItemfvpqkchz3a.onClick"
+    },
+    {
+      "key": "menuItems.menuItemcx86gd8ldz.onClick"
+    },
+    {
+      "key": "menuItems.menuItemzyhyeq8b9m.onClick"
+    }
+  ],
+  "iconAlign": "left",
+  "iconName": "th-list",
+  "isCompact": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "bi4b2kz3pi",
+  "label": "Quản lý chương trình từ thiện",
+  "leftColumn": 25,
+  "menuColor": "#14532d",
+  "menuItems": {
+    "menuItem1": {
+      "backgroundColor": "#cff2db",
+      "iconName": "control",
+      "id": "menuItem1",
+      "index": 0,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Chương trình",
+      "onClick": "{{navigateTo('Qly chương trình từ thiện', {}, 'SAME_WINDOW');}}",
+      "textColor": "#14532d",
+      "widgetId": ""
+    },
+    "menuItemcx86gd8ldz": {
+      "backgroundColor": "#cff2db",
+      "iconName": "add-column-left",
+      "id": "menuItemcx86gd8ldz",
+      "index": 2,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Đóng góp",
+      "onClick": "{{navigateTo('Đóng góp', {}, 'SAME_WINDOW');}}",
+      "textColor": "#14532d",
+      "widgetId": "2p7tdpy0ei"
+    },
+    "menuItemfvpqkchz3a": {
+      "backgroundColor": "#dcfce7",
+      "iconName": "briefcase",
+      "id": "menuItemfvpqkchz3a",
+      "index": 1,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Nhiệm vụ",
+      "onClick": "{{navigateTo('Nhiệm vụ từ thiện', {}, 'SAME_WINDOW');}}",
+      "textColor": "#14532d",
+      "widgetId": "tt71c42m2d"
+    },
+    "menuItemzyhyeq8b9m": {
+      "backgroundColor": "#cff2db",
+      "iconName": "alignment-bottom",
+      "id": "menuItemzyhyeq8b9m",
+      "index": 3,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Theo dõi tiến độ chương trình",
+      "onClick": "{{navigateTo('Theo dõi tiến độ chương trình', {}, 'SAME_WINDOW');}}",
+      "textColor": "#14532d",
+      "widgetId": "o0i3jxuye0"
+    }
+  },
+  "menuItemsSource": "STATIC",
+  "menuVariant": "TERTIARY",
+  "mobileBottomRow": 35,
+  "mobileLeftColumn": 6,
+  "mobileRightColumn": 22,
+  "mobileTopRow": 31,
+  "needsErrorInfo": false,
+  "parentColumnSpace": 19.5,
+  "parentId": "p0eyim7zem",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "renderMode": "CANVAS",
+  "rightColumn": 39,
+  "topRow": 1,
+  "type": "MENU_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "8i9ewnyi0s",
+  "widgetName": "MenuButton1CopyCopyCopyCopy"
+}

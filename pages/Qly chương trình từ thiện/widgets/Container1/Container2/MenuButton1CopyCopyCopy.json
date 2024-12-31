@@ -1,0 +1,88 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 7,
+  "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "menuItems.menuItem1.onClick"
+    },
+    {
+      "key": "menuItems.menuItem2.onClick"
+    },
+    {
+      "key": "menuItems.menuItem3.onClick"
+    }
+  ],
+  "iconAlign": "left",
+  "iconName": "timeline-events",
+  "isCompact": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "bi4b2kz3pi",
+  "label": "Báo cáo",
+  "leftColumn": 53,
+  "menuColor": "#14532d",
+  "menuItems": {
+    "menuItem1": {
+      "backgroundColor": "#cff2db",
+      "iconName": "control",
+      "id": "menuItem1",
+      "index": 0,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Báo cáo chi tiêu",
+      "onClick": "{{navigateTo('Báo cáo chi tiêu', {}, 'SAME_WINDOW');}}",
+      "textColor": "#14532d",
+      "widgetId": ""
+    },
+    "menuItem2": {
+      "backgroundColor": "#cff2db",
+      "iconName": "add-row-bottom",
+      "id": "menuItem2",
+      "index": 1,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Báo cáo vật phẩm quyên góp",
+      "onClick": "{{navigateTo('Báo cáo vật phẩm', {}, 'SAME_WINDOW');}}",
+      "textColor": "#14532d",
+      "widgetId": ""
+    },
+    "menuItem3": {
+      "backgroundColor": "#cff2db",
+      "iconName": "bank-account",
+      "id": "menuItem3",
+      "index": 2,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Báo cáo dòng tiền quyên góp",
+      "onClick": "{{navigateTo('Báo cáo dòng tiền', {}, 'SAME_WINDOW');}}",
+      "textColor": "#14532d",
+      "widgetId": ""
+    }
+  },
+  "menuItemsSource": "STATIC",
+  "menuVariant": "TERTIARY",
+  "mobileBottomRow": 35,
+  "mobileLeftColumn": 6,
+  "mobileRightColumn": 22,
+  "mobileTopRow": 31,
+  "needsErrorInfo": false,
+  "parentColumnSpace": 19.5,
+  "parentId": "xmhl7yl29w",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "renderMode": "CANVAS",
+  "rightColumn": 59,
+  "topRow": 1,
+  "type": "MENU_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "3jd4uklhyx",
+  "widgetName": "MenuButton1CopyCopyCopy"
+}
