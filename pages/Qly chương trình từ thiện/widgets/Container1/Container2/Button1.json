@@ -30,7 +30,7 @@
   "mobileRightColumn": 30,
   "mobileTopRow": 2,
   "needsErrorInfo": false,
-  "onClick": "{{showModal(Modal2.name);}}",
+  "onClick": "{{showModal(Modal2.name).then(() => {\n  logout.logout();\n});}}",
   "parentColumnSpace": 19.1875,
   "parentId": "xmhl7yl29w",
   "parentRowSpace": 10,

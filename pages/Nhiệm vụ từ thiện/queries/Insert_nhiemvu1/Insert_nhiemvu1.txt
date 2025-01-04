@@ -1,0 +1,1 @@
+INSERT INTO nhiemvu (ChuongTrinhTuThien_id,tenNhiemVu,moTa,trangThai) VALUES ('{{(Table1.newRow || {}).ChuongTrinhTuThien_id}}','{{(Table1.newRow || {}).tenNhiemVu}}','{{(Table1.newRow || {}).moTa}}','{{(Table1.newRow || {}).trangThai}}')

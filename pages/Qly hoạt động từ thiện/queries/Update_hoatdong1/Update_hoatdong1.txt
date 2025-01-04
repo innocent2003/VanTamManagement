@@ -1,0 +1,1 @@
+UPDATE hoatdong SET NguoiDung_id= '{{Table1.updatedRow.NguoiDung_id}}', tenHoatDong= '{{Table1.updatedRow.tenHoatDong}}', moTa= '{{Table1.updatedRow.moTa}}', thoiGian= '{{Table1.updatedRow.thoiGian}}', diaDiem= '{{Table1.updatedRow.diaDiem}}', loaiHoatDong= '{{Table1.updatedRow.loaiHoatDong}}' WHERE id= '{{Table1.updatedRow.id}}';

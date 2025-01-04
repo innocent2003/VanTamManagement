@@ -30,6 +30,8 @@
   "mobileTopRow": 18,
   "needsErrorInfo": false,
   "onClick": "{{navigateTo('Đăng nhập', {}, 'SAME_WINDOW');}}",
+  "originalBottomRow": 26,
+  "originalTopRow": 22,
   "parentId": "xi2flcvqhl",
   "placement": "CENTER",
   "recaptchaType": "V3",

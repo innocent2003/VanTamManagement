@@ -3,6 +3,16 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 7,
   "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
+  "configureMenuItems": {
+    "config": {
+      "id": "config",
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Menu Item"
+    },
+    "id": "config",
+    "label": "Configure menu items"
+  },
   "dynamicBindingPathList": [
     {
       "key": "borderRadius"
@@ -82,7 +92,7 @@
       "widgetId": "o0i3jxuye0"
     }
   },
-  "menuItemsSource": "STATIC",
+  "menuItemsSource": "DYNAMIC",
   "menuVariant": "TERTIARY",
   "mobileBottomRow": 35,
   "mobileLeftColumn": 6,
@@ -95,6 +105,7 @@
   "placement": "CENTER",
   "renderMode": "CANVAS",
   "rightColumn": 39,
+  "sourceData": [],
   "topRow": 1,
   "type": "MENU_BUTTON_WIDGET",
   "version": 1,
