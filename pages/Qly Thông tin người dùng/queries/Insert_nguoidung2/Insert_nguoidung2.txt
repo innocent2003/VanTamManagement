@@ -1,0 +1,1 @@
+INSERT INTO nguoidung (hoTen,email,diaChi,matKhau,vaiTro,trangThai) VALUES ('{{(Table2.newRow || {}).hoTen}}','{{(Table2.newRow || {}).email}}','{{(Table2.newRow || {}).diaChi}}','{{(Table2.newRow || {}).matKhau}}','{{(Table2.newRow || {}).vaiTro}}','{{(Table2.newRow || {}).trangThai}}')

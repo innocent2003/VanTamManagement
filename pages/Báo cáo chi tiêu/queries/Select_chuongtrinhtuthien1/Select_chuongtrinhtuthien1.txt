@@ -1,0 +1,15 @@
+SELECT
+  chuongtrinhtuthien.*,
+  donggop.soTien,
+  donggop.hinhThuc,
+  donggop.thoiGian
+FROM
+  chuongtrinhtuthien
+INNER JOIN
+  donggop ON chuongtrinhtuthien.id = donggop.ChuongTrinhTuThien_id
+ORDER BY
+  {{Table1.sortOrder.column || 'chuongtrinhtuthien.id'}} {{Table1.sortOrder.order !== "desc" ? "" : "DESC"}}
+LIMIT
+  {{Table1.pageSize}}
+OFFSET
+  {{Table1.pageOffset}}

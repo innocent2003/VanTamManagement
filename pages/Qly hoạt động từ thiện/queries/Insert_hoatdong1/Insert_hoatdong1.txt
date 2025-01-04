@@ -1,0 +1,1 @@
+INSERT INTO hoatdong (NguoiDung_id,tenHoatDong,moTa,thoiGian,diaDiem,loaiHoatDong) VALUES ('{{(Table1.newRow || {}).NguoiDung_id}}','{{(Table1.newRow || {}).tenHoatDong}}','{{(Table1.newRow || {}).moTa}}','{{(Table1.newRow || {}).thoiGian}}','{{(Table1.newRow || {}).diaDiem}}','{{(Table1.newRow || {}).loaiHoatDong}}')

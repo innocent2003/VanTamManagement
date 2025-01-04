@@ -1,0 +1,1 @@
+UPDATE nguoidung SET hoTen= '{{Table1.updatedRow.hoTen}}', email= '{{Table1.updatedRow.email}}', diaChi= '{{Table1.updatedRow.diaChi}}', matKhau= '{{Table1.updatedRow.matKhau}}', vaiTro= '{{Table1.updatedRow.vaiTro}}', trangThai= '{{Table1.updatedRow.trangThai}}' WHERE id= '{{Table1.updatedRow.id}}';
