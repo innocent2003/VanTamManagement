@@ -1,0 +1,13 @@
+SELECT
+  *
+FROM
+  chuongtrinhtuthien
+WHERE
+  1 = 1  -- Always true to keep the query structure valid
+  {{CheckboxGroup1.selectedValues.length > 0 ? "AND ngayBatDau = CURDATE()" : ""}}  -- Filter for programs on the current day if any checkbox is selected
+ORDER BY
+  {{Table1.sortOrder.column || 'id'}} {{Table1.sortOrder.order !== "desc" ? "" : "DESC"}}
+LIMIT
+  {{Table1.pageSize}}
+OFFSET
+  {{Table1.pageOffset}}

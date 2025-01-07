@@ -1,0 +1,1 @@
+UPDATE nhiemvu SET ChuongTrinhTuThien_id= '{{Table2.updatedRow.ChuongTrinhTuThien_id}}', tenNhiemVu= '{{Table2.updatedRow.tenNhiemVu}}', moTa= '{{Table2.updatedRow.moTa}}', trangThai= '{{Table2.updatedRow.trangThai}}' WHERE id= '{{Table2.updatedRow.id}}';

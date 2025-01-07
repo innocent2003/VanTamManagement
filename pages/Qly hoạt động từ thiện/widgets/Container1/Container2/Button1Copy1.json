@@ -30,7 +30,7 @@
   "mobileRightColumn": 30,
   "mobileTopRow": 2,
   "needsErrorInfo": false,
-  "onClick": "{{navigateTo('Home', {}, 'SAME_WINDOW');}}",
+  "onClick": "{{navigateTo('Qly Thông tin người dùng', {}, 'SAME_WINDOW');}}",
   "parentColumnSpace": 19.1875,
   "parentId": "5nl81jaw9c",
   "parentRowSpace": 10,
