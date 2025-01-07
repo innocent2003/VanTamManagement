@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "675e3bb18d54f328fbb9f639_ae69f238-5939-42e1-947c-22cde0f7d2ee",
+  "id": "Đăng nhập_JSObject1",
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "Đăng nhập",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ]
+  }
+}
