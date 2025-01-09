@@ -1,0 +1,8 @@
+INSERT INTO ChuongTrinhTuThien (tenChuongTrinh, moTa, ngayBatDau, ngayKetThuc, mucTieu)
+VALUES (
+    '{{Input2Copy.text}}', 
+    '{{Input2Copy1.text}}', 
+    '{{moment(DatePicker1.selectedDate).format("YYYY-MM-DD")}}', 
+    '{{moment(DatePicker1Copy.selectedDate).format("YYYY-MM-DD")}}', 
+    '{{RichTextEditor1.text}}'
+);

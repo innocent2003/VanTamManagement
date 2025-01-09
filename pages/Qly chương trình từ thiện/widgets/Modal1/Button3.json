@@ -12,7 +12,11 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "isDefaultClickDisabled": true,
   "isDisabled": false,
   "isLoading": false,
@@ -25,6 +29,7 @@
   "mobileRightColumn": 63,
   "mobileTopRow": 18,
   "needsErrorInfo": false,
+  "onClick": "{{Query3.run()}}",
   "originalBottomRow": 62,
   "originalTopRow": 56,
   "parentId": "km3j5i05xl",
