@@ -1,0 +1,1 @@
+UPDATE donggop SET ChuongTrinhTuThien_id= '{{Table1.updatedRow.ChuongTrinhTuThien_id}}', soTien= '{{Table1.updatedRow.soTien}}', hinhThuc= '{{Table1.updatedRow.hinhThuc}}', thoiGian= '{{Table1.updatedRow.thoiGian}}' WHERE id= '{{Table1.updatedRow.id}}';

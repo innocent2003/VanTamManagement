@@ -29,7 +29,7 @@
   "mobileRightColumn": 63,
   "mobileTopRow": 18,
   "needsErrorInfo": false,
-  "onClick": "{{Query3.run()}}",
+  "onClick": "{{Query3.run().then(() => {\n  closeModal(Modal1.name);\n  resetWidget(\"\", true);\n  showAlert('Thêm thành công', 'success');\n});}}",
   "originalBottomRow": 62,
   "originalTopRow": 56,
   "parentId": "km3j5i05xl",

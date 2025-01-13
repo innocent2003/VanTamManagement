@@ -1,0 +1,3 @@
+UPDATE NguoiDung
+SET trangThai = 'active'  -- Set the new status value
+WHERE id = {{Table2.selectedRow.id}};  -- Use the selected user ID

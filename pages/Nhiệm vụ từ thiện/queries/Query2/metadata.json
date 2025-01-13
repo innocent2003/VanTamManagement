@@ -1,11 +1,11 @@
 {
-  "gitSyncId": "677d4b334e59906e093d3eba_646b9fff-eb40-4cf3-a798-ec82c4b3147f",
-  "id": "Nhiệm vụ từ thiện_Query1",
+  "gitSyncId": "677d4b334e59906e093d3eba_8ac84bcc-bb3f-42d2-86be-3748ea3945a5",
+  "id": "Nhiệm vụ từ thiện_Query2",
   "pluginId": "mysql-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT * FROM chuongtrinhtuthien ;",
+      "body": "SELECT id , tenChuongTrinh FROM chuongtrinhtuthien ;",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -23,8 +23,8 @@
       "pluginId": "mysql-plugin"
     },
     "dynamicBindingPathList": [],
-    "executeOnLoad": true,
-    "name": "Query1",
+    "executeOnLoad": false,
+    "name": "Query2",
     "pageId": "Nhiệm vụ từ thiện",
     "userSetOnLoad": false
   }

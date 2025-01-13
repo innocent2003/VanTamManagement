@@ -1,0 +1,2 @@
+INSERT INTO NhiemVu (ChuongTrinhTuThien_id, tenNhiemVu, moTa, trangThai)
+VALUES ({{Select_nhiemvu1.data.id}}, {{Input2Copy2.text}}, {{Input2Copy1.text}}, {{Input2Copy1Copy.text}});

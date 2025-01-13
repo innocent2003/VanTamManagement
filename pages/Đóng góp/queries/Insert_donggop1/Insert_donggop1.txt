@@ -1,0 +1,1 @@
+INSERT INTO donggop (ChuongTrinhTuThien_id,soTien,hinhThuc,thoiGian) VALUES ('{{(Table1.newRow || {}).ChuongTrinhTuThien_id}}','{{(Table1.newRow || {}).soTien}}','{{(Table1.newRow || {}).hinhThuc}}','{{(Table1.newRow || {}).thoiGian}}')

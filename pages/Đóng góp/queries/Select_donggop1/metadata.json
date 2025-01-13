@@ -1,16 +1,16 @@
 {
-  "gitSyncId": "677d4b334e59906e093d3eba_646b9fff-eb40-4cf3-a798-ec82c4b3147f",
-  "id": "Nhiệm vụ từ thiện_Query1",
+  "gitSyncId": "677d4b334e59906e093d3eba_c0d0b8c3-0096-4fc4-b0ce-10e9dbf4d3bc",
+  "id": "Đóng góp_Select_donggop1",
   "pluginId": "mysql-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT * FROM chuongtrinhtuthien ;",
+      "body": "SELECT\n  *\nFROM\n  donggop\nORDER BY\n  {{Table1.sortOrder.column || 'id'}} {{Table1.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"}}\nLIMIT\n  {{Table1.pageSize}}\nOFFSET\n  {{Table1.pageOffset}}",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
         {
-          "value": true
+          "value": false
         }
       ],
       "timeoutInMillisecond": 10000
@@ -22,10 +22,14 @@
       "name": "Untitled datasource 1",
       "pluginId": "mysql-plugin"
     },
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      }
+    ],
     "executeOnLoad": true,
-    "name": "Query1",
-    "pageId": "Nhiệm vụ từ thiện",
+    "name": "Select_donggop1",
+    "pageId": "Đóng góp",
     "userSetOnLoad": false
   }
 }
