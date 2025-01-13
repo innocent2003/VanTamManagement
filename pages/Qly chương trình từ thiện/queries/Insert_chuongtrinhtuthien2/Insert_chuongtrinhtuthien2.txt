@@ -1,0 +1,1 @@
+INSERT INTO chuongtrinhtuthien (tenChuongTrinh,moTa,ngayBatDau,ngayKetThuc,mucTieu) VALUES ('{{(Table2.newRow || {}).tenChuongTrinh}}','{{(Table2.newRow || {}).moTa}}','{{(Table2.newRow || {}).ngayBatDau}}','{{(Table2.newRow || {}).ngayKetThuc}}','{{(Table2.newRow || {}).mucTieu}}')

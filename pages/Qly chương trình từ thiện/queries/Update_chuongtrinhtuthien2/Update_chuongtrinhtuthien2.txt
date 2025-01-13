@@ -1,0 +1,1 @@
+UPDATE chuongtrinhtuthien SET tenChuongTrinh= '{{Table2.updatedRow.tenChuongTrinh}}', moTa= '{{Table2.updatedRow.moTa}}', ngayBatDau= '{{Table2.updatedRow.ngayBatDau}}', ngayKetThuc= '{{Table2.updatedRow.ngayKetThuc}}', mucTieu= '{{Table2.updatedRow.mucTieu}}' WHERE id= '{{Table2.updatedRow.id}}';
