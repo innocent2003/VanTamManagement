@@ -1,0 +1,3 @@
+UPDATE NguoiDung
+SET trangThai = 'Đã xóa'
+WHERE soDienThoai = {{Table1.selectedRow}}; 

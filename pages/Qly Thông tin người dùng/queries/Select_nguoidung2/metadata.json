@@ -27,7 +27,7 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "name": "Select_nguoidung2",
     "pageId": "Qly Thông tin người dùng",
     "userSetOnLoad": false
