@@ -7,8 +7,8 @@
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "chartData": {
     "yf8vahf2h0": {
-      "data": "{{ JSObject1.formatItemData() }}\n",
-      "seriesName": "2023"
+      "data": "{{ JSObject1.formatItemData() }}",
+      "seriesName": "Vật phẩm "
     }
   },
   "chartName": "Báo cáo vật phẩm quyên góp",
