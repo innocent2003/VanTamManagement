@@ -1,12 +1,6 @@
 SELECT 
-    c.tenChuongTrinh AS ProgramName,
-    SUM(d.soTien) AS TotalContributions
+    idChuongTrinh AS ProgramName,
+    soTien AS TotalContributions
 FROM 
     DongGop d
-INNER JOIN 
-    ChuongTrinhTuThien c 
-ON 
-    d.ChuongTrinhTuThien_id = c.id
-
-GROUP BY 
-    c.tenChuongTrinh;
+;

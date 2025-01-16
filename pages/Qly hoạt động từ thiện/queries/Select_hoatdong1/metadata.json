@@ -27,7 +27,7 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "name": "Select_hoatdong1",
     "pageId": "Qly hoạt động từ thiện",
     "userSetOnLoad": false

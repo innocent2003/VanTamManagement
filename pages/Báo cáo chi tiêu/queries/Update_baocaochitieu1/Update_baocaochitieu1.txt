@@ -1,0 +1,1 @@
+UPDATE baocaochitieu SET tenKhoanChiTieu= '{{Table1.updatedRow.tenKhoanChiTieu}}', soTienChiTieu= '{{Table1.updatedRow.soTienChiTieu}}', idChuongTrinh= '{{Table1.updatedRow.idChuongTrinh}}', moTa= '{{Table1.updatedRow.moTa}}', ghiChu= '{{Table1.updatedRow.ghiChu}}' WHERE id= '{{Table1.updatedRow.id}}';

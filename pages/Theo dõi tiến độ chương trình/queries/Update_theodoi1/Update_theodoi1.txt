@@ -1,0 +1,1 @@
+UPDATE theodoi SET soDienThoai= '{{Table1.updatedRow.soDienThoai}}', idChuongTrinh= '{{Table1.updatedRow.idChuongTrinh}}' WHERE id= '{{Table1.updatedRow.id}}';

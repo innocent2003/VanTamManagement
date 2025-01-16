@@ -27,7 +27,7 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "name": "Select_nhiemvu2",
     "pageId": "Nhiệm vụ từ thiện",
     "userSetOnLoad": false

@@ -1,9 +1,5 @@
 SELECT 
-    d.ten AS ItemName, 
+    loaiVatPham AS ItemName, 
     v.soLuong AS Quantity
 FROM 
-    VatPham v
-INNER JOIN 
-    DanhMucVatPham d 
-ON 
-    v.DanhMucVatPham_id = d.id;
+    donggop v

@@ -1,0 +1,1 @@
+INSERT INTO baocaochitieu (tenKhoanChiTieu,soTienChiTieu,idChuongTrinh,moTa,ghiChu) VALUES ('{{(Table1.newRow || {}).tenKhoanChiTieu}}','{{(Table1.newRow || {}).soTienChiTieu}}','{{(Table1.newRow || {}).idChuongTrinh}}','{{(Table1.newRow || {}).moTa}}','{{(Table1.newRow || {}).ghiChu}}')

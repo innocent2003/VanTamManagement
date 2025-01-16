@@ -1,0 +1,1 @@
+INSERT INTO theodoi (soDienThoai,idChuongTrinh) VALUES ('{{(Table1.newRow || {}).soDienThoai}}','{{(Table1.newRow || {}).idChuongTrinh}}')

@@ -27,7 +27,7 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "name": "Total_record_chuongtrinhtuthien1",
     "pageId": "Báo cáo chi tiêu",
     "userSetOnLoad": false

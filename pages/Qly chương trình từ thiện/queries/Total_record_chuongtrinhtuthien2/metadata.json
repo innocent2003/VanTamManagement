@@ -27,7 +27,7 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "name": "Total_record_chuongtrinhtuthien2",
     "pageId": "Qly chương trình từ thiện",
     "userSetOnLoad": false
