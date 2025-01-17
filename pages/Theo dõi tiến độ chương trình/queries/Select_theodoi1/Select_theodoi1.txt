@@ -2,6 +2,7 @@ SELECT
   *
 FROM
   theodoi
+	INNER join nhiemvu on theodoi.idChuongTrinh = nhiemvu.idChuongTrinh
 ORDER BY
   {{Table1.sortOrder.column || 'id'}} {{Table1.sortOrder.order !== "desc" ? "" : "DESC"}}
 LIMIT

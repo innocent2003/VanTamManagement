@@ -1,12 +1,15 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 6,
+  "bottomRow": 33,
   "boxShadow": "none",
-  "buttonColor": "#14532d",
-  "buttonVariant": "SECONDARY",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
   "disabledWhenInvalid": false,
   "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
     {
       "key": "borderRadius"
     }
@@ -16,33 +19,34 @@
       "key": "onClick"
     }
   ],
-  "iconAlign": "left",
   "isDefaultClickDisabled": true,
   "isDisabled": false,
   "isLoading": false,
   "isVisible": true,
-  "key": "6oi3o5txi6",
-  "leftColumn": 55,
+  "key": "i7a1iu3eui",
+  "leftColumn": 9,
   "minWidth": 120,
-  "mobileBottomRow": 6,
-  "mobileLeftColumn": 14,
-  "mobileRightColumn": 30,
-  "mobileTopRow": 2,
+  "mobileBottomRow": 34,
+  "mobileLeftColumn": 9,
+  "mobileRightColumn": 25,
+  "mobileTopRow": 30,
   "needsErrorInfo": false,
-  "onClick": "{{showModal(Modal1.name);}}",
-  "parentColumnSpace": 19.1875,
-  "parentId": "bofervs9c4",
+  "onClick": "{{resetWidget(\"Table3\", true);}}",
+  "originalBottomRow": 33,
+  "originalTopRow": 29,
+  "parentColumnSpace": 3.945556640625,
+  "parentId": "rj56hfn29q",
   "parentRowSpace": 10,
   "placement": "CENTER",
   "recaptchaType": "V3",
   "renderMode": "CANVAS",
   "resetFormOnClick": false,
   "responsiveBehavior": "hug",
-  "rightColumn": 62,
-  "text": "Thêm mới",
-  "topRow": 1,
+  "rightColumn": 40,
+  "text": "Submit",
+  "topRow": 29,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "npvv97ufaz",
-  "widgetName": "Button1Copy2"
+  "widgetId": "ppap957h0z",
+  "widgetName": "Button6"
 }

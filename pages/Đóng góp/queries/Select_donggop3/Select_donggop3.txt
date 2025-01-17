@@ -2,6 +2,7 @@ SELECT
   *
 FROM
   donggop
+	Where donggop.trangThai = 'Đã hoàn thành'
 ORDER BY
   {{Table2.sortOrder.column || 'id'}} {{Table2.sortOrder.order !== "desc" ? "" : "DESC"}}
 LIMIT

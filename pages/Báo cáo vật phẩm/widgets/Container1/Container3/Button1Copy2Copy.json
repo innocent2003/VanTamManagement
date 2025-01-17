@@ -11,7 +11,11 @@
       "key": "borderRadius"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "iconAlign": "left",
   "isDefaultClickDisabled": true,
   "isDisabled": false,
@@ -25,6 +29,7 @@
   "mobileRightColumn": 30,
   "mobileTopRow": 2,
   "needsErrorInfo": false,
+  "onClick": "{{download(GetContributions.data, 'BaoCaoDongTien', 'text/csv');}}",
   "parentColumnSpace": 19.1875,
   "parentId": "kros59y382",
   "parentRowSpace": 10,

@@ -1,8 +1,28 @@
-INSERT INTO ChuongTrinhTuThien (tenChuongTrinh, moTa, ngayBatDau, ngayKetThuc, mucTieu)
+INSERT INTO ChuongTrinhTuThien (
+    tenChuongTrinh, 
+    diadiem, 
+    soTienDat, 
+    anhChuongTrinh, 
+    anhQR, 
+    moTa, 
+    ngayBatDau, 
+    trangThaiChuongTrinh, 
+    soLuotTheoDoi, 
+    soTienCanThiet, 
+    ghiChu, 
+    trangThai
+)
 VALUES (
     '{{Input2Copy.text}}', 
+    '{{Input2CopyCopy.text}}', 
+    '{{CurrencyInput1.text}}', 
+    '{{Image1.image}}', 
+    '{{Image1Copy1.image}}', 
+    '{{RichTextEditor1.text}}', 
     '{{Input2Copy1.text}}', 
-    '{{moment(DatePicker1.selectedDate).format("YYYY-MM-DD")}}', 
-    '{{moment(DatePicker1Copy.selectedDate).format("YYYY-MM-DD")}}', 
-    '{{RichTextEditor1.text}}'
+    '0', 
+    '{{CurrencyInput1.text}}', 
+    '{{Input2Copy1.text}}', 
+    '{{CurrencyInput1.text}}', 
+    'Hoạt động'
 );

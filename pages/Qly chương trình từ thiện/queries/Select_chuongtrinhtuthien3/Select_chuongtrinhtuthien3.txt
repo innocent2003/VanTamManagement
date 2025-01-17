@@ -4,6 +4,7 @@ FROM
   chuongtrinhtuthien
 ORDER BY
   {{Table3.sortOrder.column || 'id'}} {{Table3.sortOrder.order !== "desc" ? "" : "DESC"}}
+Where chuongtrinhtuthien.trangThai = "Hoạt dộng"
 LIMIT
   {{Table3.pageSize}}
 OFFSET

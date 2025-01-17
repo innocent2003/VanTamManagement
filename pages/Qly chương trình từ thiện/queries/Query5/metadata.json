@@ -1,16 +1,16 @@
 {
-  "gitSyncId": "678909fc503b763d46bbe8f3_bba390bf-8e59-4624-b248-29c40b22d595",
-  "id": "Theo dõi tiến độ chương trình_Total_record_theodoi1",
+  "gitSyncId": "678909fc503b763d46bbe8f3_16c10221-25a6-4dcf-9d3e-5f2576c2f16e",
+  "id": "Qly chương trình từ thiện_Query5",
   "pluginId": "mysql-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT COUNT(*) from theodoi;",
+      "body": "UPDATE ChuongTrinhTuThien\nSET trangThai = 'Đã xoá'\nWHERE id = '{{Table3.selectedRow.id}}';",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
         {
-          "value": false
+          "value": true
         }
       ],
       "timeoutInMillisecond": 10000
@@ -28,8 +28,8 @@
       }
     ],
     "executeOnLoad": false,
-    "name": "Total_record_theodoi1",
-    "pageId": "Theo dõi tiến độ chương trình",
+    "name": "Query5",
+    "pageId": "Qly chương trình từ thiện",
     "userSetOnLoad": false
   }
 }

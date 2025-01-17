@@ -5,7 +5,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 45,
+  "bottomRow": 41,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "canFreezeColumn": true,
   "childStylesheet": {
@@ -45,9 +45,10 @@
     "soTienCanThiet",
     "ghiChu",
     "trangThai",
+    "customColumn1",
     "EditActions1"
   ],
-  "columnUpdatedAt": 1737037270417,
+  "columnUpdatedAt": 1737103791979,
   "columnWidthMap": {},
   "customIsLoading": false,
   "customIsLoadingValue": "",
@@ -126,6 +127,15 @@
     },
     {
       "key": "primaryColumns.EditActions1.isDiscardDisabled"
+    },
+    {
+      "key": "primaryColumns.customColumn1.buttonColor"
+    },
+    {
+      "key": "primaryColumns.customColumn1.borderRadius"
+    },
+    {
+      "key": "primaryColumns.customColumn1.boxShadow"
     }
   ],
   "dynamicPropertyPathList": [
@@ -151,6 +161,9 @@
     },
     {
       "key": "primaryColumns.EditActions1.onSave"
+    },
+    {
+      "key": "primaryColumns.customColumn1.onClick"
     }
   ],
   "enableClientSideSearch": true,
@@ -166,7 +179,7 @@
   "isVisibleSearch": true,
   "key": "6yi6f5yp05",
   "label": "Data",
-  "leftColumn": 2,
+  "leftColumn": 9,
   "minWidth": 450,
   "mobileBottomRow": 28,
   "mobileLeftColumn": 2,
@@ -280,6 +293,44 @@
       "label": "anhQR",
       "notation": "standard",
       "originalId": "anhQR",
+      "sticky": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "customColumn1": {
+      "alias": "Delete",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "borderRadius": "{{Table3.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
+      "boxShadow": "{{Table3.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
+      "buttonColor": "{{Table3.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.colors.primaryColor)))}}",
+      "buttonStyle": "rgb(3, 179, 101)",
+      "columnType": "button",
+      "computedValue": "",
+      "currencyCode": "USD",
+      "customAlias": "",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "customColumn1",
+      "index": 10,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": true,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "Delete",
+      "labelColor": "#FFFFFF",
+      "notation": "standard",
+      "onClick": "{{Query5.run()}}",
+      "originalId": "customColumn1",
       "sticky": "",
       "textSize": "0.875rem",
       "thousandSeparator": true,
@@ -631,13 +682,13 @@
   },
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 57,
+  "rightColumn": 52,
   "searchKey": "",
   "serverSidePaginationEnabled": true,
   "showInlineEditingOptionDropdown": true,
   "tableData": "{{Select_chuongtrinhtuthien3.data}}",
   "textSize": "0.875rem",
-  "topRow": 0,
+  "topRow": 7,
   "totalRecordsCount": "{{Total_record_chuongtrinhtuthien3.data[0].count}}",
   "type": "TABLE_WIDGET_V2",
   "version": 2,

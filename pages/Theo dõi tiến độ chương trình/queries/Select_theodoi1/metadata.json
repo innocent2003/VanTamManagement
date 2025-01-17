@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT\n  *\nFROM\n  theodoi\nORDER BY\n  {{Table1.sortOrder.column || 'id'}} {{Table1.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"}}\nLIMIT\n  {{Table1.pageSize}}\nOFFSET\n  {{Table1.pageOffset}}",
+      "body": "SELECT\n  *\nFROM\n  theodoi\n\tINNER join nhiemvu on theodoi.idChuongTrinh = nhiemvu.idChuongTrinh\nORDER BY\n  {{Table1.sortOrder.column || 'id'}} {{Table1.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"}}\nLIMIT\n  {{Table1.pageSize}}\nOFFSET\n  {{Table1.pageOffset}}",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -27,7 +27,7 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "name": "Select_theodoi1",
     "pageId": "Theo dõi tiến độ chương trình",
     "userSetOnLoad": false

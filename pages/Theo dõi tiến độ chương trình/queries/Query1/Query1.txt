@@ -1,0 +1,13 @@
+SELECT 
+    NguoiDung.tenNguoiDung, 
+    ChuongTrinhTuThien.tenChuongTrinh, 
+    ChuongTrinhTuThien.diaDiem, 
+    ChuongTrinhTuThien.ngayBatDau 
+FROM 
+    TheoDoi
+INNER JOIN 
+    NguoiDung ON TheoDoi.soDienThoai = NguoiDung.soDienThoai
+INNER JOIN 
+    ChuongTrinhTuThien ON TheoDoi.idChuongTrinh = ChuongTrinhTuThien.id
+WHERE 
+    ChuongTrinhTuThien.trangThai = 'Hoạt động';

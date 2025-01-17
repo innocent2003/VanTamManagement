@@ -2,7 +2,7 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 28,
+  "bottomRow": 26,
   "defaultSelectedValues": [
     "BLUE"
   ],
@@ -38,19 +38,15 @@
   "needsErrorInfo": false,
   "options": [
     {
-      "label": "Chưa diễn ra",
+      "label": "Chưa hoạt động",
       "value": "1"
     },
     {
-      "label": "Đang diễn ra",
+      "label": "Hoạt động",
       "value": "2"
-    },
-    {
-      "label": "Kết thúc",
-      "value": "3"
     }
   ],
-  "originalBottomRow": 28,
+  "originalBottomRow": 26,
   "originalTopRow": 18,
   "parentColumnSpace": 4.509694576263428,
   "parentId": "rj56hfn29q",

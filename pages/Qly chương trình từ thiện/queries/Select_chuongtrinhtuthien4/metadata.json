@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT\n  *\nFROM\n  chuongtrinhtuthien\nORDER BY\n  {{Table4.sortOrder.column || 'id'}} {{Table4.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"}}\nLIMIT\n  {{Table4.pageSize}}\nOFFSET\n  {{Table4.pageOffset}}",
+      "body": "SELECT\n  *\nFROM\n  chuongtrinhtuthien\n\twhere chuongtrinhtuthien.trangThai = 'Hoạt động'\nORDER BY\n  {{Table4.sortOrder.column || 'id'}} {{Table4.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"}}\nLIMIT\n  {{Table4.pageSize}}\nOFFSET\n  {{Table4.pageOffset}}",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [

@@ -2,6 +2,7 @@ SELECT
   *
 FROM
   hoatdong
+	Where trangThai = "Hoạt động"
 ORDER BY
   {{Table1.sortOrder.column || 'id'}} {{Table1.sortOrder.order !== "desc" ? "" : "DESC"}}
 LIMIT

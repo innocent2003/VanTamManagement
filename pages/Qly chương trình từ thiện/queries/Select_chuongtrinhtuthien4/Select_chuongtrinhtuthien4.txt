@@ -2,6 +2,7 @@ SELECT
   *
 FROM
   chuongtrinhtuthien
+	where chuongtrinhtuthien.trangThai = 'Hoạt động'
 ORDER BY
   {{Table4.sortOrder.column || 'id'}} {{Table4.sortOrder.order !== "desc" ? "" : "DESC"}}
 LIMIT

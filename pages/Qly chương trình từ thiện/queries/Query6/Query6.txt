@@ -1,0 +1,3 @@
+UPDATE ChuongTrinhTuThien
+SET trangThai = 'Hoạt động'
+WHERE id = '{{Table3.selectedRow.id}}';
